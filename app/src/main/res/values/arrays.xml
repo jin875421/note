@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="text_back_color_items">
+        <item>红色</item>
+        <item>黄色</item>
+        <item>蓝色</item>
+        <item>绿色</item>
+        <item>黑色</item>
+    </string-array>
+    <string-array name="color_items">
+        <item>红色</item>
+        <item>黄色</item>
+        <item>绿色</item>
+        <item>蓝色</item>
+        <item>黑色</item>
+    </string-array>
+    <string-array name="ai_item">
+        <item>格式调整</item>
+        <item>文章润色</item>
+    </string-array>
+</resources>

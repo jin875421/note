@@ -1,0 +1,3 @@
+rootProject.name = "note"
+include ':app'
+include ':baseadapter_rv'

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_community"
+    tools:context=".fragment.CommunityFragment">
+
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:id="@+id/community_top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true">
+
+        <com.google.android.material.tabs.TabLayout
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tbl"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-1dp"
+            android:background="#00FFFFFF"
+            app:tabIndicatorColor="#03A9F4"
+            app:tabRippleColor="@null"
+            app:tabTextAppearance="@style/PersonTabLayout"
+            app:tabTextColor="#FFFFFF" />
+        <ImageView
+            android:clickable="true"
+            android:padding="12dp"
+            android:src="@mipmap/search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/note_search"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/community_top"
+        />
+
+</RelativeLayout>
